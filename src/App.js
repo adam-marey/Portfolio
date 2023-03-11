@@ -2,14 +2,18 @@ import './App.css';
 import Home from './pages/Home';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Skills from './pages/Skills';
+import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/skills" element={<Skills />} />
+      </Routes>
       <Footer />
     </div>
   );
 }
-
 export default App;
