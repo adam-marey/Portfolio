@@ -52,7 +52,6 @@ const ProjectsContainer = () => {
             githubLink="https://github.com/cs-team-02/neighbor-fave"
             liveSite="https://neighbor-fave.herokuapp.com/"
           />
-          <div />
           <Projects
             name="Satorial Style Co."
             description="Professional e-commerce website using Next.js, Tailwind CSS, Auth0 for authentication, Stripe for payments, and Strapi CMS for content management. This website includes features such as product listings, shopping cart, and checkout functionality. The website is also fully responsive, ensuring that customers can shop seamlessly on any device. With this project, I demonstrated my skills in building a modern, secure, and efficient e-commerce platform that meets the needs of both the business and its customers."
@@ -60,7 +59,6 @@ const ProjectsContainer = () => {
             githubLink=""
             liveSite=""
           />
-          <div />
           <Projects
             name="Personal Website"
             description="Personal website built with React and Tailwind CSS"
@@ -68,23 +66,13 @@ const ProjectsContainer = () => {
             githubLink="https://github.com/adam-marey/myPort"
             liveSite="https://www.adammarey.com/"
           />
-          <div />
           <Projects
             name="EZ-Manage"
-            description="The project is a management system for keeping track of projects and clients. It is built using React for the frontend, Apollo Client for handling GraphQL requests, and Bootstrap for styling. The backend is built using Express and GraphQL for the database."
+            description="The project is a management system for keeping track of projects and clients. It is built using React for the frontend, Apollo Client for handling GraphQL requests, and Bootstrap for styling. The backend is built using Express and GraphQL for the database.(In Progress)"
             image={ezmanage}
             githubLink="https://github.com/adam-marey/EZ-Manage"
             liveSite="https://github.com/adam-marey/EZ-Manage"
           />
-          <div />
-          <Projects
-            name="Virtual Kitchen"
-            description="Fullstack e-commerce application- Built with React, Redux, Node, Express, PostgreSQL, Sequelize (School's Team Project)"
-            image={kitchen}
-            githubLink="https://github.com/mudkip-masters/grace-shopper"
-            liveSite="https://grace-shopper-mudkip-masters.herokuapp.com/"
-          />
-          <div />
         </h1>
       </div>
     </div>

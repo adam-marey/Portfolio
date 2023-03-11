@@ -15,7 +15,7 @@ const Navbar = ({ fixed }) => {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <NavLink
               to="/"
-              className="button-50 font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-gray-800"
+              className=" cursor-pointer font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-gray-800"
             >
               <span onClick={toggle}>Home</span>
             </NavLink>

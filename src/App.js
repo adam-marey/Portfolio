@@ -1,8 +1,8 @@
 import './App.css';
 import Home from './pages/Home';
-import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Skills from './pages/Skills';
+import Experience from './pages/Experience';
 import ProjectsContainer from './pages/ProjectsContainer';
 import { Routes, Route } from 'react-router-dom';
 function App() {
@@ -13,8 +13,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<ProjectsContainer />} />
+        <Route path="/experience" element={<Experience />} />
       </Routes>
-      <Footer />
     </div>
   );
 }
