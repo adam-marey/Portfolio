@@ -4,6 +4,7 @@ import fav from '../imgs/fav.jpg';
 import kitchen from '../imgs/kitchen.jpg';
 import ezmanage from '../imgs/ezmanage.png';
 import portfolio from '../imgs/portfolio.png';
+import styles from '../imgs/styles.jpg';
 import { Link } from 'react-router-dom';
 const ProjectsContainer = () => {
   return (
@@ -53,6 +54,14 @@ const ProjectsContainer = () => {
           />
           <div />
           <Projects
+            name="Satorial Style Co."
+            description="Professional e-commerce website using Next.js, Tailwind CSS, Auth0 for authentication, Stripe for payments, and Strapi CMS for content management. This website includes features such as product listings, shopping cart, and checkout functionality. The website is also fully responsive, ensuring that customers can shop seamlessly on any device. With this project, I demonstrated my skills in building a modern, secure, and efficient e-commerce platform that meets the needs of both the business and its customers."
+            image={styles}
+            githubLink=""
+            liveSite=""
+          />
+          <div />
+          <Projects
             name="Personal Website"
             description="Personal website built with React and Tailwind CSS"
             image={portfolio}
@@ -70,7 +79,7 @@ const ProjectsContainer = () => {
           <div />
           <Projects
             name="Virtual Kitchen"
-            description="Fullstack e-commerce application- Built with React, Redux, Node, Express, PostgreSQL, Sequelize"
+            description="Fullstack e-commerce application- Built with React, Redux, Node, Express, PostgreSQL, Sequelize (School's Team Project)"
             image={kitchen}
             githubLink="https://github.com/mudkip-masters/grace-shopper"
             liveSite="https://grace-shopper-mudkip-masters.herokuapp.com/"
