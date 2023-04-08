@@ -5,6 +5,7 @@ import kitchen from '../imgs/kitchen.jpg';
 import ezmanage from '../imgs/ezmanage.png';
 import portfolio from '../imgs/portfolio.png';
 import styles from '../imgs/styles.jpg';
+import pairs from '../imgs/pairsGenerator.png';
 import { Link } from 'react-router-dom';
 const ProjectsContainer = () => {
   return (
@@ -41,6 +42,13 @@ const ProjectsContainer = () => {
       <div class="container mx-auto">
         <div class="flex items-center my-2" />
         <h1 className="font-weight-light">
+          <Projects
+            name="Cohort Pair Generator"
+            description="Cohort Pair Generator is a powerful and user-friendly web tool that leverages complex algorithms to simplify the creation of random pairs or groups of students in a higher education setting. This application automates the process of generating optimal academic pairings while taking into account multiple constraints, including the ability to specify certain students who cannot work together. Its intuitive drag-and-drop interface also allows users to manually adjust the generated pairs as needed. Additionally, users can easily copy the generated pairs to the clipboard or export them as CSV files to integrate into other workflows or applications."
+            image={pairs}
+            githubLink="https://github.com/adam-marey/pairing-management-"
+            liveSite="https://pair-generator.netlify.app/"
+          />
           <Projects
             name="Neighbor-fave"
             description="NeighborFav, is a community-based platform that aims to facilitate
