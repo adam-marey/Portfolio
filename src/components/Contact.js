@@ -9,9 +9,9 @@ const Contact = () => {
       </h1>
       <div className="text-1xl text-gray-500 pt-2">
         <p>
-          If you have an application you are interested in developing, a feature
-          that you need building, or a project that needs coding, I’d love to
-          help you with it.
+          if you're interested in working with me on a project or have any
+          questions, please don't hesitate to reach out using any of the
+          following methods:
         </p>
       </div>
       <br />

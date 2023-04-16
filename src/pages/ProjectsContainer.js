@@ -62,7 +62,7 @@ const ProjectsContainer = () => {
           />
           <Projects
             name="Satorial Style Co."
-            description="Professional e-commerce website using Next.js, Tailwind CSS, Auth0 for authentication, Stripe for payments, and Strapi CMS for content management. This website includes features such as product listings, shopping cart, and checkout functionality. The website is also fully responsive, ensuring that customers can shop seamlessly on any device. With this project, I demonstrated my skills in building a modern, secure, and efficient e-commerce platform that meets the needs of both the business and its customers."
+            description="Professional e-commerce website using Next.js, Tailwind CSS, Auth0 for authentication, Stripe for payments, and Strapi CMS for content management. This website includes features such as product listings, shopping cart, and checkout functionality. The website is also fully responsive, ensuring that customers can shop seamlessly on any device. With this project, I demonstrated my skills in building a modern, secure, and efficient e-commerce platform that meets the needs of both the business and its customers. (under construction)"
             image={styles}
             githubLink=""
             liveSite=""
@@ -73,13 +73,6 @@ const ProjectsContainer = () => {
             image={portfolio}
             githubLink="https://github.com/adam-marey/myPort"
             liveSite="https://www.adammarey.com/"
-          />
-          <Projects
-            name="EZ-Manage"
-            description="The project is a management system for keeping track of projects and clients. It is built using React for the frontend, Apollo Client for handling GraphQL requests, and Bootstrap for styling. The backend is built using Express and GraphQL for the database.(In Progress)"
-            image={ezmanage}
-            githubLink="https://github.com/adam-marey/EZ-Manage"
-            liveSite="https://github.com/adam-marey/EZ-Manage"
           />
         </h1>
       </div>
