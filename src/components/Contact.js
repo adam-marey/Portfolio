@@ -18,7 +18,7 @@ const Contact = () => {
       <div className="">
         <span className="pr-2 cursor-pointer" target="_blank">
           <SocialIcon
-            url="https://www.linkedin.com/in/sulaiman-marey/"
+            url="https://www.linkedin.com/in/adam-marey/"
             network="linkedin"
             target="_blank"
           />
