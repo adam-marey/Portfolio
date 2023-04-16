@@ -71,8 +71,8 @@ const ProjectsContainer = () => {
             name="Personal Website"
             description="Personal website built with React and Tailwind CSS"
             image={portfolio}
-            githubLink="https://github.com/adam-marey/myPort"
-            liveSite="https://www.adammarey.com/"
+            githubLink="https://github.com/adam-marey/Portfolio"
+            liveSite="https://portfolio-adammaree.vercel.app/"
           />
         </h1>
       </div>
