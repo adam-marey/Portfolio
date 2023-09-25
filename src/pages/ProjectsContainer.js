@@ -1,9 +1,8 @@
 import React from 'react';
 import Projects from '../components/Projects';
 import fav from '../imgs/fav.jpg';
-import kitchen from '../imgs/kitchen.jpg';
-import ezmanage from '../imgs/ezmanage.png';
 import portfolio from '../imgs/portfolio.png';
+import kitchen from '../imgs/pickle.png';
 import styles from '../imgs/styles.jpg';
 import pairs from '../imgs/pairsGenerator.png';
 import { Link } from 'react-router-dom';
@@ -43,6 +42,13 @@ const ProjectsContainer = () => {
         <div class="flex items-center my-2" />
         <h1 className="font-weight-light">
           <Projects
+            name="Pickle Pantry"
+            description="Modern Fullstack E-commerce application built with TypeScipt, Next.js, GoogleAuth, Stripe Payments, Zustand state managment, Prisma, Tailwind, Framer Motion"
+            image={kitchen}
+            githubLink="https://github.com/code-laborate1/commerce"
+            liveSite="https://brilliant-cocada-f2b3be.netlify.app/"
+          />
+          <Projects
             name="Cohort Pair Generator"
             description="Cohort Pair Generator is a powerful and user-friendly web tool that leverages complex algorithms to simplify the creation of random pairs or groups of students in a higher education setting. This application automates the process of generating optimal academic pairings while taking into account multiple constraints, including the ability to specify certain students who cannot work together. Its intuitive drag-and-drop interface also allows users to manually adjust the generated pairs as needed. Additionally, users can easily copy the generated pairs to the clipboard or export them as CSV files to integrate into other workflows or applications."
             image={pairs}
@@ -59,13 +65,6 @@ const ProjectsContainer = () => {
             image={fav}
             githubLink="https://github.com/cs-team-02/neighbor-fave"
             liveSite="https://neighbor-fave.herokuapp.com/"
-          />
-          <Projects
-            name="Satorial Style Co."
-            description="Professional e-commerce website using Next.js, Tailwind CSS, Auth0 for authentication, Stripe for payments, and Strapi CMS for content management. This website includes features such as product listings, shopping cart, and checkout functionality. The website is also fully responsive, ensuring that customers can shop seamlessly on any device. With this project, I demonstrated my skills in building a modern, secure, and efficient e-commerce platform that meets the needs of both the business and its customers. (under construction)"
-            image={styles}
-            githubLink=""
-            liveSite=""
           />
           <Projects
             name="Personal Website"

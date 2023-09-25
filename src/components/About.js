@@ -7,13 +7,14 @@ const About = () => {
         About Me
       </h1>
       <p className="text-1xl text-gray-500 pt-4">
-        As a software development mentor at a coding bootcamp and computer
-        science student at Grand Canyon University, I'm passionate about
-        teaching web development and empowering students to succeed. With strong
-        communication and problem-solving skills, I strive to make complex
-        concepts accessible and engaging to learners of all levels. My goal is
-        to help students become confident, skilled developers who are equipped
-        to excel in the tech industry.
+        Hello! I'm Adam Marey, a devoted software engineer with a rich
+        background in computer science. With over two years in web application
+        and backend architecture design, I also wear the hat of a web mentor,
+        eager to guide aspiring software engineers to greatness. Beyond codes
+        and algorithms, I unwind by hitting the gym and experimenting with
+        delightful recipes in the kitchen. Let's connect, explore my portfolio,
+        and feel free to reach out anytime to talk tech, workouts, or the
+        perfect dish to cook!
       </p>
     </div>
   );

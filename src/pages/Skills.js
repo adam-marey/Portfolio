@@ -21,10 +21,8 @@ function Skills() {
         </div>
 
         <div class="box box-down blue">
-          <h1>Design tool</h1>
-          <p>
-            I use Figma, Schema Design, Miro to structure and plan user stories
-          </p>
+          <h1>Other Tool</h1>
+          <p>Figma, Schema Design, Miro, Canvas, Monday, GitHub</p>
         </div>
       </div>
       <div class="row2-container">
