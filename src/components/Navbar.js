@@ -1,7 +1,8 @@
 import React from 'react';
 import './Navbar.css';
 import { MenuIcon } from '@heroicons/react/solid';
-import { NavLink } from 'react-router-dom';
+
+import { SocialIcon } from 'react-social-icons';
 
 const Navbar = ({ fixed }) => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -10,17 +11,11 @@ const Navbar = ({ fixed }) => {
 
   return (
     <div className="container mx-auto">
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-1 bg-blueGray-500 mb-1 text-center">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <nav className="relative flex flex-wrap items-center justify-between px-1 py-1 bg-blueGray-500 mb-1 text-center">
+        <div className="container px-1 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <NavLink
-              to="/"
-              className=" cursor-pointer font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-gray-800"
-            >
-              <span onClick={toggle}>Home</span>
-            </NavLink>
             <button
-              className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="text-black cursor-pointer text-xl leading-none px-1 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
               onClick={toggle}
             >
@@ -36,31 +31,24 @@ const Navbar = ({ fixed }) => {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
-                <NavLink
-                  to="/projects"
-                  className=" py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75"
-                  onClick={toggle}
-                >
-                  <span className="ml-2">Projects</span>
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  to="/skills"
-                  className=" py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75"
-                  onClick={toggle}
-                >
-                  <span className="ml-2">Skills</span>
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  to="/experience"
-                  className=" py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75"
-                  onClick={toggle}
-                >
-                  <span className="ml-2">Experience</span>
-                </NavLink>
+                <br />
+                <div className="">
+                  <span className="pr-5 cursor-pointer" target="_blank">
+                    <SocialIcon
+                      url="https://www.linkedin.com/in/adam-marey/"
+                      network="linkedin"
+                      target="_blank"
+                    />
+                  </span>
+
+                  <span className="pr-5 cursor-pointer">
+                    <SocialIcon
+                      url={'mailto:marey119988@gmail.com'}
+                      network="email"
+                      target="_blank"
+                    />
+                  </span>
+                </div>
               </li>
             </ul>
           </div>

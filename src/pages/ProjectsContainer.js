@@ -1,11 +1,8 @@
 import React from 'react';
 import Projects from '../components/Projects';
 import fav from '../imgs/fav.jpg';
-import portfolio from '../imgs/portfolio.png';
 import kitchen from '../imgs/pickle.png';
-import styles from '../imgs/styles.jpg';
 import pairs from '../imgs/pairsGenerator.png';
-import { Link } from 'react-router-dom';
 const ProjectsContainer = () => {
   return (
     <div class="mx-auto">
@@ -65,13 +62,6 @@ const ProjectsContainer = () => {
             image={fav}
             githubLink="https://github.com/cs-team-02/neighbor-fave"
             liveSite="https://neighbor-fave.herokuapp.com/"
-          />
-          <Projects
-            name="Personal Website"
-            description="Personal website built with React and Tailwind CSS"
-            image={portfolio}
-            githubLink="https://github.com/adam-marey/Portfolio"
-            liveSite="https://portfolio-adammaree.vercel.app/"
           />
         </h1>
       </div>

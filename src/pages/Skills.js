@@ -3,6 +3,18 @@ import React from 'react';
 function Skills() {
   return (
     <div>
+      <div className="mx-auto p-20 text-center bg-gray-100">
+        <div>
+          <h1 className="tracking-widest text-3xl text-gray-700 font-black pt-5">
+            Technical Proficiency
+          </h1>
+          <h4 className="text-1xll text-gray-500 pt-2">
+            I specialize in various technologies and frameworks, enabling me to
+            create exceptional software solutions. Here are some of the
+            technologies I excel in:
+          </h4>
+        </div>
+      </div>
       <div class="row1-container">
         <div class="box box-down cyan">
           <h1>Frontend Development</h1>
