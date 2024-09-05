@@ -47,7 +47,7 @@ const ProjectsContainer = () => {
           />
           <Projects
             name="Cohort Pair Generator"
-            description="Cohort Pair Generator is a powerful and user-friendly web tool that leverages complex algorithms to simplify the creation of random pairs or groups of students in a higher education setting. This application automates the process of generating optimal academic pairings while taking into account multiple constraints, including the ability to specify certain students who cannot work together. Its intuitive drag-and-drop interface also allows users to manually adjust the generated pairs as needed. Additionally, users can easily copy the generated pairs to the clipboard or export them as CSV files to integrate into other workflows or applications."
+            description="Cohort Pair Generator is a simple yet powerful JavaScript tool that creates random student pairs or groups, handling constraints like students who can't be paired. It features an easy drag-and-drop interface for manual adjustments and allows exporting pairs as CSV files or copying them to the clipboard."
             image={pairs}
             githubLink="https://github.com/adam-marey/pairing-management-"
             liveSite="https://pair-generator.netlify.app/"

@@ -7,14 +7,13 @@ const About = () => {
         About Me
       </h1>
       <p className="text-1xl text-gray-500 pt-4">
-        Hello! I'm Adam Marey, a devoted software engineer with a rich
-        background in computer science. With over two years in full stack
-        software development, I also wear the hat of a web development mentor,
-        eager to guide aspiring software engineers to greatness. Beyond codes
-        and algorithms, I unwind by hitting the gym and experimenting with
-        delightful recipes in the kitchen. Let's connect, explore my portfolio,
-        and feel free to reach out anytime to talk tech, workouts, or the
-        perfect dish to cook!
+        As a passionate software engineer with experience in web development and
+        problem-solving, I’m seeking my next full-time SWE opportunity. I bring
+        strong technical skills and a dedication to building efficient, scalable
+        solutions. My past work in mentoring has enhanced my ability to
+        communicate complex ideas clearly and collaborate effectively in team
+        environments. Ready to contribute and grow in the dynamic field of
+        software engineering.
       </p>
     </div>
   );

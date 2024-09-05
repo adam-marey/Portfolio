@@ -58,7 +58,7 @@ const IntroImage = () => {
             Adam Marey
           </h1>
           <h4 className="text-1xll text-gray-500 pt-2">
-            Full Stack Software Engineer based in Arizona
+            Full Stack Software Engineer
           </h4>
         </motion.div>
       </AnimatePresence>
